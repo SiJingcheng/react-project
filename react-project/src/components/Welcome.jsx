@@ -4,7 +4,7 @@ import { Redirect } from 'react-router-dom';
 class Welcome extends Component {
     state = {  }
     handleClick=(e)=>{
-        return <Redirect to="/SignIn"/>
+        return <Redirect to="/SignIn" />
     }
     render() { 
         return ( 
