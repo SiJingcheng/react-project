@@ -12,7 +12,7 @@ class SignIn extends Component {
         })
     }
     handleSubmit=(e)=>{
-        if (this.state.username == '123' && this.state.password == '123'){
+        if (this.state.username === '123' && this.state.password === '123'){
             return <Redirect to='/Welcome'/>
         }
     }
